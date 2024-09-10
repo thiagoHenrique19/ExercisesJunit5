@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58367ffe-1b8c-4a31-8a81-60db605f63ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CalculadoraTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +40,12 @@
   "keyToString": {
     "Application.Calculadora.executor": "Run",
     "JUnit.CalculadoraTest.assertivas.executor": "Run",
+    "JUnit.CalculadoraTest.deveExplodirComDenominadorZeroNaDivisao.executor": "Run",
+    "JUnit.CalculadoraTest.deveLancarExcecaoQuandoDividirPorZero_Junit4.executor": "Run",
+    "JUnit.CalculadoraTest.deveLancarExcecaoQuandoDividirPorZero_Junit5.executor": "Run",
+    "JUnit.CalculadoraTest.deveRetornarNumeroInteiroNaDivisao.executor": "Run",
+    "JUnit.CalculadoraTest.deveRetornarNumeroNegativoNaDivisao.executor": "Run",
+    "JUnit.CalculadoraTest.deveRetornarZeroComNumeradorZeroNaDivisao.executor": "Run",
     "JUnit.CalculadoraTest.executor": "Run",
     "JUnit.CalculadoraTest.testsSomar.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -56,20 +55,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CalculadoraTest.assertivas">
-    <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Calculadora" />
-      <module name="JUnit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CalculadoraTest.deveLancarExcecaoQuandoDividirPorZero_Junit5">
     <configuration name="CalculadoraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5" />
       <option name="PACKAGE_NAME" value="" />
@@ -79,21 +65,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraTest.assertivas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadoraTest.deveExplodirComDenominadorZeroNaDivisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
-      <option name="METHOD_NAME" value="assertivas" />
+      <option name="METHOD_NAME" value="deveExplodirComDenominadorZeroNaDivisao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraTest.testsSomar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadoraTest.deveLancarExcecaoQuandoDividirPorZero_Junit4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
-      <option name="METHOD_NAME" value="testsSomar" />
+      <option name="METHOD_NAME" value="deveLancarExcecaoQuandoDividirPorZero_Junit4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraTest.deveLancarExcecaoQuandoDividirPorZero_Junit5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
+      <option name="METHOD_NAME" value="deveLancarExcecaoQuandoDividirPorZero_Junit5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraTest.deveRetornarZeroComNumeradorZeroNaDivisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
+      <option name="METHOD_NAME" value="deveRetornarZeroComNumeradorZeroNaDivisao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,10 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculadoraTest.assertivas" />
+        <item itemvalue="JUnit.CalculadoraTest.deveLancarExcecaoQuandoDividirPorZero_Junit5" />
+        <item itemvalue="JUnit.CalculadoraTest.deveLancarExcecaoQuandoDividirPorZero_Junit4" />
         <item itemvalue="JUnit.CalculadoraTest" />
-        <item itemvalue="JUnit.CalculadoraTest.testsSomar" />
-        <item itemvalue="Application.Calculadora" />
+        <item itemvalue="JUnit.CalculadoraTest.deveExplodirComDenominadorZeroNaDivisao" />
+        <item itemvalue="JUnit.CalculadoraTest.deveRetornarZeroComNumeradorZeroNaDivisao" />
       </list>
     </recent_temporary>
   </component>
