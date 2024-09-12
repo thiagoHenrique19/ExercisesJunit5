@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58367ffe-1b8c-4a31-8a81-60db605f63ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Exceptions/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/barriga/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/barriga/ContaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/barriga/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/barriga/UsuarioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/builders/BuilderMaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/builders/ContaBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/builders/UsuarioBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/builders/UsuarioBuilderOld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculadora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" afterDir="false" />
     </list>
@@ -48,6 +58,11 @@
     "JUnit.CalculadoraTest.deveRetornarZeroComNumeradorZeroNaDivisao.executor": "Run",
     "JUnit.CalculadoraTest.executor": "Run",
     "JUnit.CalculadoraTest.testsSomar.executor": "Run",
+    "JUnit.ContaTest.executor": "Run",
+    "JUnit.UsuarioTest.deveCriarUsuarioValido.executor": "Run",
+    "JUnit.UsuarioTest.deveRejeitarUsuarioSemNome.executor": "Run",
+    "JUnit.UsuarioTest.deveRejeitarUsuarioSemSenha.executor": "Run",
+    "JUnit.UsuarioTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -55,26 +70,12 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CalculadoraTest.deveLancarExcecaoQuandoDividirPorZero_Junit5">
-    <configuration name="CalculadoraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculadoraTest.deveExplodirComDenominadorZeroNaDivisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
-      <option name="METHOD_NAME" value="deveExplodirComDenominadorZeroNaDivisao" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="barriga" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ContaTest">
     <configuration name="CalculadoraTest.deveLancarExcecaoQuandoDividirPorZero_Junit4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5" />
       <option name="PACKAGE_NAME" value="" />
@@ -95,11 +96,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraTest.deveRetornarZeroComNumeradorZeroNaDivisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
-      <option name="METHOD_NAME" value="deveRetornarZeroComNumeradorZeroNaDivisao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="barriga.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="barriga" />
+      <option name="MAIN_CLASS_NAME" value="barriga.ContaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="barriga.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="barriga" />
+      <option name="MAIN_CLASS_NAME" value="barriga.UsuarioTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioTest.deveRejeitarUsuarioSemSenha" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="barriga.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="barriga" />
+      <option name="MAIN_CLASS_NAME" value="barriga.UsuarioTest" />
+      <option name="METHOD_NAME" value="deveRejeitarUsuarioSemSenha" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContaTest" />
+        <item itemvalue="JUnit.UsuarioTest" />
+        <item itemvalue="JUnit.UsuarioTest.deveRejeitarUsuarioSemSenha" />
         <item itemvalue="JUnit.CalculadoraTest.deveLancarExcecaoQuandoDividirPorZero_Junit5" />
         <item itemvalue="JUnit.CalculadoraTest.deveLancarExcecaoQuandoDividirPorZero_Junit4" />
-        <item itemvalue="JUnit.CalculadoraTest" />
-        <item itemvalue="JUnit.CalculadoraTest.deveExplodirComDenominadorZeroNaDivisao" />
-        <item itemvalue="JUnit.CalculadoraTest.deveRetornarZeroComNumeradorZeroNaDivisao" />
       </list>
     </recent_temporary>
   </component>
@@ -132,5 +169,16 @@
       <updated>1723719984435</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

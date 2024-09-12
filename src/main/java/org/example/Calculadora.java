@@ -4,6 +4,10 @@ import java.util.IdentityHashMap;
 
 public class Calculadora {
 
+    public Calculadora(){
+        System.out.println("New calc");
+    }
+
     public int soma (int a, int b){
         return a + b;
     }
