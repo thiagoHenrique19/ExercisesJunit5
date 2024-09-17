@@ -1,6 +1,7 @@
-package barriga;
+package Barriga;
 
 import Exceptions.ValidationException;
+import barriga.Usuario;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
