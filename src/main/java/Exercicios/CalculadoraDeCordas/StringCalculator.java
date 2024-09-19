@@ -39,7 +39,7 @@ public class StringCalculator {
 
             // numeros negativos
             if (negatives.length() > 0) {
-                throw new Exception("Números negativos não permitidos: " + negatives.toString());
+                throw new IllegalArgumentException("Números negativos não permitidos: " + negatives.toString());
             }
 
             return sum;

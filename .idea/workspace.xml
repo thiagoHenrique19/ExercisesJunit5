@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58367ffe-1b8c-4a31-8a81-60db605f63ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicios/CalculadoraDeCordas/StringCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicios/CodigoBarras/BarcodeScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicios/FuncionationPesquisa/CitySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicios/ValidationPassword/PasswordValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicios/fizzbuzz_solver/FizzBuzzSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exercicios/infra/UsuarioMemoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/UsuarioService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/repositories/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Exercicios/CalculuadoraDeCordas/StringCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Exercicios/FizzBuzzSolver/FizzbuzzTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Exercicios/FuncionationPesquisa/CitySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Exercicios/ValidationPasswordTest/PasswordValidationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exceptions/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/ValidationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/barriga/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/barriga/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/barriga/ContaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Barriga/ContaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/barriga/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/barriga/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/barriga/UsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Barriga/UsuarioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/builders/BuilderMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builders/BuilderMaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/builders/ContaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builders/ContaBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/builders/UsuarioBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builders/UsuarioBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/builders/UsuarioBuilderOld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builders/UsuarioBuilderOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercicios/CalculadoraDeCordas/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercicios/CalculadoraDeCordas/StringCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Exercicios/CalculuadoraDeCordas/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exercicios/CalculuadoraDeCordas/StringCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Exercicios/CodigoBarras/BarcodeScannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exercicios/CodigoBarras/BarcodeScannerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +65,8 @@
     "JUnit.PasswordValidationTest.testPasswordWithoutUpperCaseLetter.executor": "Run",
     "JUnit.StringCalculatorTest.executor": "Run",
     "JUnit.StringCalculatorTest.testCustomDelimiter.executor": "Run",
+    "JUnit.StringCalculatorTest.testMultipleErrors.executor": "Run",
+    "JUnit.StringCalculatorTest.testNegativeNumberThrowsException.executor": "Run",
     "JUnit.UsuarioTest.deveCriarUsuarioValido.executor": "Run",
     "JUnit.UsuarioTest.deveRejeitarUsuarioSemNome.executor": "Run",
     "JUnit.UsuarioTest.deveRejeitarUsuarioSemSenha.executor": "Run",
@@ -99,7 +83,7 @@
       <recent name="barriga" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CitySearch">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.testMultipleErrors">
     <configuration name="CitySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicios.FuncionationPesquisa.CitySearch" />
       <module name="JUnit5" />
@@ -129,21 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JUnit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exercicios.ValidationPasswordTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Exercicios.ValidationPasswordTest" />
-      <option name="MAIN_CLASS_NAME" value="Exercicios.ValidationPasswordTest.PasswordValidationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PasswordValidationTest.testPasswordWithLessThan8Characters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5" />
       <extension name="coverage">
@@ -160,17 +129,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordValidationTest.testPasswordWithoutUpperCaseLetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTest.testMultipleErrors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicios.ValidationPasswordTest.*" />
+          <option name="PATTERN" value="Exercicios.CalculuadoraDeCordas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Exercicios.ValidationPasswordTest" />
-      <option name="MAIN_CLASS_NAME" value="Exercicios.ValidationPasswordTest.PasswordValidationTest" />
-      <option name="METHOD_NAME" value="testPasswordWithoutUpperCaseLetter" />
+      <option name="PACKAGE_NAME" value="Exercicios.CalculuadoraDeCordas" />
+      <option name="MAIN_CLASS_NAME" value="Exercicios.CalculuadoraDeCordas.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="testMultipleErrors" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorTest.testNegativeNumberThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercicios.CalculuadoraDeCordas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Exercicios.CalculuadoraDeCordas" />
+      <option name="MAIN_CLASS_NAME" value="Exercicios.CalculuadoraDeCordas.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="testNegativeNumberThrowsException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCalculatorTest.testMultipleErrors" />
+        <item itemvalue="JUnit.StringCalculatorTest.testNegativeNumberThrowsException" />
         <item itemvalue="Application.CitySearch" />
         <item itemvalue="JUnit.CitySearchTest.testSearchWithAsteriskReturnsAllCities" />
         <item itemvalue="JUnit.PasswordValidationTest.testPasswordWithLessThan8Characters" />
-        <item itemvalue="JUnit.PasswordValidationTest" />
-        <item itemvalue="JUnit.PasswordValidationTest.testPasswordWithoutUpperCaseLetter" />
       </list>
     </recent_temporary>
   </component>
